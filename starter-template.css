@@ -15,3 +15,8 @@ body {
     margin:0px 70px;
     
 }
+
+#gameDiv {
+    position: relative;
+    top: 60px;
+}
