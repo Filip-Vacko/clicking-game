@@ -1,0 +1,11 @@
+{
+  "name": "clicking_game",
+  "version": "4.0.0-beta",
+  "description": "A simple clicking game. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Filip Vacko",
+  "license": "ISC"
+}
