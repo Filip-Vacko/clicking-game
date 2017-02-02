@@ -19,15 +19,6 @@ loopLives();
 document.getElementById("score").innerHTML += totalScore;
 document.getElementById("time").innerHTML += bestTime;
 
-function alertMe() {
-    alert("This is alert 1");
-}
-function alertMe2() {
-    alert("This is alert 2");
-}
-function alertMe3() {
-    alert("This is alert 3");
-}
 function noDisplay() {
     document.getElementById("circle").style.display = "none";
 }
@@ -53,7 +44,6 @@ function createCircle() {
 }
 
 function animateCircle() {
-
     $("#circle").animate({
         width: Math.floor(Math.random() * (300 - 50 + 1)) + 50 + 'px',
         height: Math.floor(Math.random() * (300 - 50 + 1)) + 50 + 'px',
@@ -82,11 +72,9 @@ function animateCircle() {
             document.getElementById("roundDiv").innerHTML = "Round " + round;
             document.getElementById("score").innerHTML = "Your total score: " + totalScore;
         }
-
         else if (yourLives.length == 1) {
             alert("Too slow, you lost a life! You have " + yourLives.length + " life left");
         }
-
         else {
             alert("Too slow, you lost a life! You have " + yourLives.length + " lives left");
         }
